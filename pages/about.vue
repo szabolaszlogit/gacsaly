@@ -156,8 +156,7 @@
             <b-button
               href="https://hu.wikipedia.org/wiki/Gacs%C3%A1ly"
               variant="primary"
-              >Wikipedia</b-button
-            >
+              >Wikipedia</b-button>
           </b-card>
         </b-col>
       </b-row>

@@ -5,21 +5,33 @@
         <b-col>
           <div>
             <b-navbar toggleable="lg" type="light" variant="success">
-              <b-navbar-brand href="#">NavBar</b-navbar-brand>
 
               <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
               <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav>
-                  <NuxtLink to="/"><b-nav-item>Home page</b-nav-item></NuxtLink>
                   <b-nav-item>
-                    <NuxtLink to="about">Gacsályról</NuxtLink></b-nav-item
+                  <NuxtLink to="/">Gacsály</NuxtLink>
+                  </b-nav-item>
+                  <b-nav-item>
+                    <NuxtLink to="/about">Gacsályról</NuxtLink></b-nav-item
                   >
                   <b-nav-item>
-                    <NuxtLink to="doc">Dokumentumok</NuxtLink></b-nav-item
+                    <NuxtLink to="/doc">Dokumentumok</NuxtLink></b-nav-item
                   >
+                  <b-nav-item>
+                    <NuxtLink to="/helyiado">Helyi adó</NuxtLink></b-nav-item
+                  >
+                   <b-nav-item>
+                    <NuxtLink to="/oktatas">Oktatás, nevelés</NuxtLink></b-nav-item
+                  >
+
+                <b-nav-item>
+                    <NuxtLink to="/intezmenyek">Intézmények, vállakozók</NuxtLink></b-nav-item
+                  >                  
                 </b-navbar-nav>
 
+     
                 <!-- Right aligned nav items -->
                 <b-navbar-nav class="ml-auto">
                   <b-nav-form>
