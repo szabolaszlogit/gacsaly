@@ -29,8 +29,13 @@
                 <b-nav-item>
                     <NuxtLink to="/intezmenyek">Intézmények, vállakozók</NuxtLink></b-nav-item
                   >                  
-                </b-navbar-nav>
+         
 
+                <b-nav-item>
+                    <NuxtLink to="/hivatal">Hivatal</NuxtLink>
+                    </b-nav-item>      
+
+                </b-navbar-nav>
      
                 <!-- Right aligned nav items -->
                 <b-navbar-nav class="ml-auto">
