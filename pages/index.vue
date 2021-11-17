@@ -1,37 +1,54 @@
 <template>
-<div>
   <div>
-  <b-card
-    title="Card Title"
-    img-src="https://picsum.photos/600/300/?image=25"
-    img-alt="Image"
-    img-top
-    tag="article"
-    style="max-width: 20rem;"
-    class="mb-2"
-  >
-    <b-card-text>
-      Some quick example text to build on the card title and make up the bulk of the card's content.
-    </b-card-text>
-
-    <b-button href="#" variant="primary">Go somewhere</b-button>
-  </b-card> 
-  
-   <Tutorial/>
+    <b-container>
+      <b-row>
+        <b-col>
+           <div>
+  <b-img src="/gacsalyreftemp.jpg" fluid-grow alt="Gacsályi templom"></b-img>
 </div>
-</div>
-
+          <div v-for="article of articles" :key="article.number">
+            <b-card tag="article" style="max-width: 100%" class="mb-2">
+              <b-card-text>
+                <h2>{{ article.title }}</h2>
+                <article>
+                  <nuxt-content :document="article" />
+                </article>
+              </b-card-text>
+            </b-card>
+          </div>
+        </b-col>
+      </b-row>
+    </b-container>
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  async asyncData({ $content, params }) {
+    const articles = await $content("articles")
+      .sortBy("number", "desc")
+      .fetch();
+
+    return {
+      articles,
+    };
+  },
+};
 </script>
 
 <style>
-.nuxt-link-active {
-  color:lightyellow
+.nuxt-content h2 {
+  font-weight: bold;
+  font-size: 28px;
 }
-a{
-  color:black
+.nuxt-content h3 {
+  font-weight: bold;
+  font-size: 22px;
+}
+.nuxt-content p {
+  margin-bottom: 20px;
+}
+.nuxt-content ul {
+  list-style-type: none;
 }
 </style>
