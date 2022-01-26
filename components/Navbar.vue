@@ -79,7 +79,7 @@
                     <div class="bg-secondary">
                      <b-dropdown-item>
                         <NuxtLink to="/mfphor2020">
-                          MFP-2020
+                          MFP-HOF-2020
                         </NuxtLink>
                       </b-dropdown-item>
                       <b-dropdown-item>
