@@ -16,7 +16,6 @@
 MFP azonosító: 1005300503 <br>
 Projekt azonosító: 3078368605<br>
 Gacsály Község Önkormányzata támogatást nyert a Magyar Falu Program keretében az „Orvosi rendelők fejlesztése” program keretében. <br><br>
-Támogatás összege: 14 901 278 Ft <br><br>
 Támogatás összege: 29 993 993 Ft<br>
 Projekt megvalósításának tervezett kezdete: 2020. 08. 01.<br>
 Projekt megvalósításának tervezett fizikai befejezése: 2021. 08. 31.<br>

@@ -90,6 +90,9 @@
                       <b-dropdown-item>
                         <NuxtLink to="/mfpotu2019"> MFP-ÖTU/2019 </NuxtLink>
                       </b-dropdown-item>
+                      <b-dropdown-item>
+                        <NuxtLink to="/mfpojf2020"> MFP-OJF/2020 </NuxtLink>
+                      </b-dropdown-item>
                     </div>
                   </b-nav-item-dropdown>
                 </b-navbar-nav>
