@@ -23,7 +23,9 @@
                       </b-dropdown-item>
                     </div>
                   </b-nav-item-dropdown>
-
+                  <b-nav-item>
+                    <NuxtLink to="/telepulesrendezesi">Településrendezési terv</NuxtLink></b-nav-item
+                  >
                   <b-nav-item>
                     <NuxtLink to="/doc">Dokumentumok</NuxtLink></b-nav-item
                   >
