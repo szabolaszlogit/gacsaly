@@ -24,7 +24,9 @@
                     </div>
                   </b-nav-item-dropdown>
                   <b-nav-item>
-                    <NuxtLink to="/telepulesrendezesi">Településrendezési terv</NuxtLink></b-nav-item
+                    <NuxtLink to="/telepulesrendezesi"
+                      >Településrendezési terv</NuxtLink
+                    ></b-nav-item
                   >
                   <b-nav-item>
                     <NuxtLink to="/doc">Dokumentumok</NuxtLink></b-nav-item
@@ -79,10 +81,11 @@
 
                   <b-nav-item-dropdown text="Pályázatok" right>
                     <div class="bg-secondary">
-                     <b-dropdown-item>
-                        <NuxtLink to="/mfphor2020">
-                          MFP-HOF-2020
-                        </NuxtLink>
+                      <b-dropdown-item>
+                        <NuxtLink to="/nmi2021"> NMI-2021 </NuxtLink>
+                      </b-dropdown-item>
+                      <b-dropdown-item>
+                        <NuxtLink to="/mfphor2020"> MFP-HOF-2020 </NuxtLink>
                       </b-dropdown-item>
                       <b-dropdown-item>
                         <NuxtLink to="/vp6721741216">
@@ -109,9 +112,9 @@
 
 <style>
 .nuxt-link-active {
-  color:lightyellow
+  color: lightyellow;
 }
-a{
-  color:black
+a {
+  color: black;
 }
 </style>
